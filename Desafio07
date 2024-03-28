@@ -1,0 +1,25 @@
+package Desafios;
+import java.util.Scanner;
+public class Desafio07 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Digite um número: ");
+		int numero = scanner.nextInt();
+		
+		int parimpar = numero +1  ;
+		
+		if (parimpar == 1) {
+			System.out.print("O número é Impar.");
+		}
+		
+		else { System.out.print("O número é Par.");
+		}
+		
+		scanner.close();
+
+	}
+
+}
