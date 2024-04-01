@@ -8,14 +8,12 @@ public class Desafio07 {
 		
 		System.out.print("Digite um número: ");
 		int numero = scanner.nextInt();
-		
-		int parimpar = numero +1  ;
-		
-		if (parimpar == 1) {
-			System.out.print("O número é Impar.");
+			
+		if (numero % 2 == 0) {
+			System.out.print("O número é Par.");
 		}
 		
-		else { System.out.print("O número é Par.");
+		else { System.out.print("O número é Impar.");
 		}
 		
 		scanner.close();
