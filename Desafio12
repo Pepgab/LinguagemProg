@@ -1,1 +1,14 @@
-x
+package Desafios;
+import java.util.Scanner;
+public class atividade01 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+
+		String meunome = "Pedro Gabriel Soares";
+
+        System.out.println("Meu primeiro nome é: " + meunome.split(" ")[0]);
+		scanner.close();
+	}
+}
