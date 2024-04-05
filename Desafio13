@@ -6,7 +6,7 @@ public class Desafio13 {
 		
 		Scanner scanner = new Scanner(System.in);
 
-		String meunome = "Guilherme Trento";
+		String meunome = "Pedro Gabriel Soares";
 		
 		String primeiro = meunome.split(" ")[0];
 
