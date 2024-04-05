@@ -1,6 +1,6 @@
-package Desafios;
+fiopackage Desafios;
 import java.util.Scanner;
-public class atividade01 {
+public class Desafio12 {
 
 	public static void main(String[] args) {
 		
